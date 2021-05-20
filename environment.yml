@@ -1,0 +1,11 @@
+name: image_parser
+channels:
+  - defaults
+dependencies:
+  - notebook=6.3.0
+  - python=3.8.10
+  - ipywidgets=7.6.3
+  - pip
+  - pip:
+      - -r file:requirements.txt
+prefix: /home/ppotrykus/anaconda3/envs/image_parser

@@ -1,0 +1,5 @@
+pytest
+tqdm
+requests
+jedi==0.17.2
+pandas
