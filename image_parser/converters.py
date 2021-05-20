@@ -3,6 +3,12 @@ import pandas as pd
 
 
 def to_csv(json_filepath, csv_filepath):
+    """
+    Function that converts json label files to csv files using pandas DataFrame
+    :param json_filepath:
+    :param csv_filepath:
+    :return:
+    """
     with open(json_filepath) as infile:
         data = json.load(infile)
 
