@@ -13,7 +13,6 @@ def test_csv_converter(data_dir, names_json_file, tmp_path):
     assert output.equals(expected_output)
 
 
-@pytest.mark.skip()
 @pytest.mark.parametrize("json_file", ("names_json_file", "ids_json_file"))
 def test_csv_converter_multifile(json_file, data_dir, tmp_path, request):
     json_file = request.getfixturevalue(json_file)
